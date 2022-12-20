@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css');
+
+/* 
+font-family: 'Crimson Pro', serif; 
+font-family: 'Helvetica Neue', sans-serif;
+font-family: 'Helvetica 25 UltraLight', sans-serif;
+font-family: 'Helvetica 35 Thin', sans-serif;
+font-family: 'Helvetica 45 Light', sans-serif;
+font-family: 'Helvetica 55 Roman', sans-serif;
+font-family: 'Helvetica 65 Medium', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wedding2022 {
+    overflow-x: hidden;
+}
+
+.wedding2022 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* block1 */
+
+.wedding2022-block1-container {
+    width: 100%;
+    height: 718px;
+}
+
+.wedding2022-block1 {
+    width: 100%;
+    height: 718px;
+    position: relative;
+}
+
+.wedding2022-block1-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.wedding2022-block1-bg img {
+    object-fit: cover;
+    object-position: 70% 50%;
+
+}
+
+.wedding2022-block1-mobile-display {
+    display: none;
+}
+
+.wedding2022-block1-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    right: 100px;
+}
+
+.wedding2022-block1-text-alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wedding2022-block1-text-1 {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 45px;
+    text-align: center;
+    color: #754443;
+}
+
+.wedding2022-block1-text-2 {
+    font-family: 'Crimson Pro';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #754443;
+
+    margin-top: 50px;
+}
+
+.wedding2022-block1-text-3 {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #754443;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .wedding2022-block1 {
+        width: 1440px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wedding2022-block1-desktop-display {
+        display: none;
+    }
+
+    .wedding2022-block1-mobile-display {
+        display: block;
+    }
+
+    .wedding2022-block1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wedding2022-block1-bg img {
+        object-position: 20% 30%;
+
+    }
+
+    .wedding2022-block1-container {
+        height: 200px;
+    }
+
+    .wedding2022-block1-text {
+        right: 20px;
+    }
+
+    .wedding2022-block1-text-1 {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 28px;
+    }
+}
+
+/* block1 */
+
+/* block2 */
+
+.wedding2022-block2-container {
+    width: 100%;
+    height: 820px;
+    padding-top: 55px;
+}
+
+.wedding2022-block2 {
+    width: 1440px;
+    height: 820px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wedding2022-block2-1 {
+    height: 100%;
+    width: 647px;
+    position: relative;
+}
+
+.wedding2022-block2-1-1 {
+    width: 647px;
+    height: 640px;
+}
+
+
+.wedding2022-block2-1-2 {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 58px;
+    color: #754443;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+    width: 361px;
+}
+
+.wedding2022-block2-1-3 {
+    font-family: 'Crimson Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #754443;
+    width: 491px;
+    margin-top: 20px;
+}
+
+.wedding2022-block2-1-4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #754443;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.wedding2022-block2-1-4 span {
+    margin-left: 10px;
+}
+
+.wedding2022-block2-1-2v2 {
+    width: 302px;
+}
+
+.wedding2022-block2-1-3v2 {
+    width: 545px;
+}
+
+.wedding2022-block2-mobile-display {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .wedding2022-block2-container {
+        width: 100%;
+        height: 906px;
+        padding-top: 30px;
+    }
+
+    .wedding2022-block2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wedding2022-block2 {
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .wedding2022-block2-1 {
+        width: 325px;
+        margin: auto;
+    }
+
+    .wedding2022-block2-1-1 {
+        width: 325px;
+        height: 249px;
+    }
+
+    .wedding2022-block2-1-2 {
+        position: relative;
+        width: 236px;
+        margin: auto;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+        top: unset;
+        left: unset;
+        margin-top: 10px;
+    }
+
+    .wedding2022-block2-1-3 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        width: 299px;
+        margin: 10px auto
+    }
+
+    .wedding2022-block2-1-4 {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.15em;
+        justify-content: center;
+    }
+
+    .wedding2022-block2-mobile-display {
+        display: block;
+    }
+
+    .wedding2022-block2-desktop-display {
+        display: none;
+    }
+}
+
+/* block2 end */
+
+/* block 3 */
+.wedding2022-block3-container {
+    width: 100%;
+    height: 923px;
+}
+
+.wedding2022-block3 {
+    width: 100%;
+    height: 923px;
+    margin: auto;
+    position: relative;
+    padding-top: 95px;
+}
+
+.wedding2022-block3-1 {
+    width: 100%;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 45px;
+    text-align: center;
+    color: #754443;
+}
+
+.wedding2022-block3-2 {
+    width: 100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin: 28px auto 0 auto;
+    color: #754443;
+}
+
+.wedding2022-block3-3 {
+    height: 697px;
+    width: 100%;
+    position: relative;
+}
+
+.wedding2022-block3-3-1 {
+    width: 1206px;
+    height: 514px;
+    position: absolute;
+    left: calc(50% - 603px);
+    top: 48px;
+    z-index: 2;
+}
+
+.wedding2022-block3-3-2 {
+    width: 100%;
+    height: 253px;
+    background: #DED3CC;
+    position: absolute;
+    top: 446.19px;
+    z-index: 1;
+}
+
+.wedding2022-block3-carousel-container {
+    width: 1206px;
+    height: 514px;
+}
+
+.wedding2022-block3-carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.wedding2022-block3-carousel-card {
+    width: 362px;
+    height: 514px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.wedding2022-block3-carousel-card-img {
+    width: 100%;
+    height: 378px;
+}
+
+.wedding2022-block3-carousel-card-text {
+    height: 136px;
+    width: 100%;
+    position: relative;
+}
+
+.wedding2022-block3-carousel-card-title {
+    width: 100%;
+    top: 21px;
+    position: absolute;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #754443;
+}
+
+.wedding2022-block3-carousel-card-body {
+    width: 100%;
+    top: 58px;
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #754443;
+}
+
+.wedding2022-block3-carousel-card-arrow {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 96px;
+    left: calc(50% - 12px);
+    color: #754443;
+}
+
+.wedding2022-block3-carousel .owl-item {
+    margin: auto;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-around;
+
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+}
+
+.owl-prev .material-symbols-outlined,
+.owl-next .material-symbols-outlined {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.wedding2022-block3-mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 769px) {
+    .wedding2022-block3-carousel-card:hover {
+        transition: 0.3s;
+        -webkit-box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.3);
+    }
+
+
+    .owl-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .wedding2022-block3 {
+        width: 1440px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wedding2022-block3-container {
+        height: 664px;
+    }
+
+    .wedding2022-block3 {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    .wedding2022-block3-1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .wedding2022-block3-2 {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 17px auto 0 auto;
+    }
+
+    .wedding2022-block3-3 {
+        height: 524px;
+    }
+
+    .wedding2022-block3-3-1 {
+        left: unset;
+        width: 100%;
+        top: 15px;
+    }
+
+
+
+    .wedding2022-block3-carousel-container {
+        width: 100%;
+    }
+
+    .wedding2022-block3-carousel-card {
+        height: 387px;
+        width: 256px;
+        margin: 20px auto;
+    }
+
+    .wedding2022-block3-carousel-card-img {
+        height: 283px;
+    }
+
+    .wedding2022-block3-carousel-card-text {
+        height: 104px;
+    }
+
+    .wedding2022-block3-carousel-card-title {
+        top: 16px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .wedding2022-block3-carousel-card-body {
+        font-size: 12px;
+        line-height: 28px;
+        top: 39px;
+    }
+
+    .wedding2022-block3-carousel-card-arrow {
+        top: 68px;
+    }
+
+    .wedding2022-block3-3-2 {
+        height: 205px;
+        top: 318px;
+    }
+
+    .wedding2022-block3-mobile {
+        display: block;
+    }
+
+    .wedding2022-block3-desktop {
+        display: none;
+    }
+}
+
+/* block 3 end */
+
+/* block 4 */
+
+.wedding2022-block4-container {
+    width: 100%;
+    height: 53.54167vw;
+}
+
+.wedding2022-block4 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.wedding2022-block4-1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.wedding2022-block4-2 {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #F2EBE5;
+}
+
+.wedding2022-block4-3 {
+    width: 494.47px;
+    height: 630px;
+    position: absolute;
+    top: calc(50% - 335px);
+    left: calc(50% - 280px);
+}
+
+.wedding2022-block4-mobile {
+    display: none;
+}
+
+.wedding2022-block4-4 {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: calc(50% + 260px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wedding2022-block4-4-1 {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 56px;
+    color: #754443;
+}
+
+.wedding2022-block4-4-2 {
+    font-family: 'Crimson Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #754443;
+    margin: 20px 0 25px 0;
+}
+
+.wedding2022-block4-4-3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.25em;
+    color: #754443;
+    text-decoration: none !important;
+}
+
+.wedding2022-block4-4-3 span {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .wedding2022-block4 {
+        width: 1440px;
+        height: 771px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wedding2022-block4-mobile {
+        display: block;
+    }
+
+    .wedding2022-block4-desktop {
+        display: none;
+    }
+
+    .wedding2022-block4-container {
+        height: calc(80.2667vw + 219px);
+    }
+
+    .wedding2022-block4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wedding2022-block4-1 {
+        position: absolute;
+        width: 75.2vw;
+        height: 80.2667vw;
+        left: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    .wedding2022-block4-2 {
+        position: absolute;
+        width: 100%;
+        height: 80.2667vw;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    .wedding2022-block4-3 {
+        width: 51.992vw;
+        height: 66.24vw;
+        left: 42.8773%;
+        z-index: 3;
+        top: 8.5333vw;
+    }
+
+    .wedding2022-block4-4 {
+        top: 80.2667vw;
+        width: 100%;
+        left: unset;
+        height: 219px;
+        align-items: center;
+    }
+
+    .wedding2022-block4-4-1 {
+        font-size: 35px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .wedding2022-block4-4-2 {
+        font-style: italic;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .wedding2022-block4-4-3 {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.15em;
+        text-align: center;
+    }
+
+    .wedding2022-block4-4-3 span {
+        margin-left: 5px;
+    }
+
+    .wedding2022-block4-4-3 .material-symbols-outlined {
+        font-weight: 200;
+    }
+}
+
+/* block 4 end */
